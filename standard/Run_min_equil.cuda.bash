@@ -30,7 +30,7 @@ step="step2_charmm2amber"
 for ii in `seq 0 1 4`
 do
 	prev_step=$step
-	step="step4.${ii}_minimization"
+	step="step4.${ii}_equilibration"
 	echo "running $step"
 	$AMBERHOME/bin/pmemd.cuda  -O -i $step.mdin -c $prev_step.rst7 \
 		-p $toppath -r $step.rst7 -ref $prev_step.rst7 \
