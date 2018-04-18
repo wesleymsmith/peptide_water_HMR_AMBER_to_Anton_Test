@@ -1,5 +1,9 @@
 # peptide_water_HMR_AMBER_to_Anton_Test
 
+note: this system is likely too tiny to even run (let alone be worthwhile running) on anton
+	it is intended primarily to test conversion of systems for HMR has been performed 
+  	using AMBER's parmed utility to port onto anton
+
 Build and setup information
 
 -Small system consisting of a 3 residue peptide ( ARF ) generated using MOE, and solvated in a
