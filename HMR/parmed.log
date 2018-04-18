@@ -1,0 +1,6 @@
+# Log started on 04/18/2018 [mm/dd/yyyy] at 15:09:53
+# Command line arguments: step2_charmm2amber.parm7
+# Loaded topologies: step2_charmm2amber.parm7
+HMassRepartition 3.0
+parmout step2_charmm2amber.hmr.parm7
+go

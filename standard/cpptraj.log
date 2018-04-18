@@ -11,3 +11,11 @@ quit
 #   step2_charmm2amber.parm7
 resinfo !:TIP3P,WAT,CLA,POT
 quit
+# 04/18/18 15:14:12
+# step2_charmm2amber.parm7
+# Loaded topologies:
+#   step2_charmm2amber.parm7
+trajin step4.4_equilibration.rst7
+trajout step4.4_equilibration.ascii.rst7
+go
+quit
