@@ -5,3 +5,9 @@
 parmwrite out step2_charmm2amber.nochamber.parm7 nochamber
 go
 quit
+# 04/18/18 14:25:24
+# step2_charmm2amber.parm7
+# Loaded topologies:
+#   step2_charmm2amber.parm7
+resinfo !:TIP3P,WAT,CLA,POT
+quit
